@@ -49,7 +49,7 @@ namespace AWS.Logger
         AWSCredentials Credentials { get;  }
 
         /// <summary>
-        /// Gets the Region property. This is the AWS Region that will be used for CloudWatch Logs. If this is not
+        /// Gets the Region property. This is the AWS Region that will be used for CloudWatch Logs. If this is not set
         /// the AWS SDK for .NET will use its fall back logic to try and determine the region through environment variables and EC2 instance metadata.
         /// If the Region is not set and no region is found by the SDK's fall back logic then an exception will be thrown.
         /// </summary>
